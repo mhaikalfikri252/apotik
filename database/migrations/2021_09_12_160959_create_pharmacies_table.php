@@ -17,9 +17,9 @@ class CreatePharmaciesTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('director');
-            $table->integer('phone')->unique();
+            $table->string('phone')->unique();
             $table->string('email')->unique();
-            $table->integer('account_number')->unique();
+            $table->string('account_number')->unique();
             $table->string('address');
             $table->decimal('balance', 9, 2)->nullable();
             $table->text('logo')->nullable();
