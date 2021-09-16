@@ -12,10 +12,11 @@
                     <thead>
                         <tr>
                             <th>Nama</th>
-                            <th>NoHp</th>
-                            <th>Email</th>
-                            <th>Rekening</th>
-                            <th>Alamat</th>
+                            <th>Kode</th>
+                            <th>Dosis</th>
+                            <th>Indikasi</th>
+                            <th>Kategori</th>
+                            <th>Satuan</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
@@ -104,20 +105,24 @@
                     name: 'name'
                 },
                 {
-                    data: 'phone',
-                    name: 'phone'
+                    data: 'code',
+                    name: 'code'
                 },
                 {
-                    data: 'email',
-                    name: 'email'
+                    data: 'dose',
+                    name: 'dose'
                 },
                 {
-                    data: 'account_number',
-                    name: 'account_number'
+                    data: 'indication',
+                    name: 'indication'
                 },
                 {
-                    data: 'address',
-                    name: 'address'
+                    data: 'category_id',
+                    name: 'category_id'
+                },
+                {
+                    data: 'unit_id',
+                    name: 'unit_id'
                 },
                 {
                     data: 'action',

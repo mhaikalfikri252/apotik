@@ -21,7 +21,8 @@
     <link rel="stylesheet" href={{asset("dist/css/adminlte.min.css") }}>
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href={{asset("plugins/overlayScrollbars/css/OverlayScrollbars.min.css") }}>
-    <link rel="stylesheet" href={{asset("plugins/datatables/css/datatables.css") }}>
+    <link rel="stylesheet" href={{asset("plugins/datatables/datatables.css") }}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     {{-- <!-- Daterange picker -->
   <link rel="stylesheet" href={{asset ("plugins/daterangepicker/daterangepicker.css") }}>
     <!-- summernote -->
